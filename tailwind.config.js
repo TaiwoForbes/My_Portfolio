@@ -16,6 +16,8 @@ export default {
         'blackish': '#9F9F9F',
         'grey': '#202020',
         'blk': '#3A3A3A',
+        'blke': '#FF9B50',
+        
       },
       
       fontFamily: {

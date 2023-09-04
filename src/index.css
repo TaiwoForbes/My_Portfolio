@@ -5,7 +5,9 @@
 @tailwind components;
 @tailwind utilities;
 
-
+html{
+    scroll-behavior: smooth;
+}
 .mobile_screen_nav{
     background:  rgba(241, 237, 237, 0.2);
     width: max-content;
@@ -24,17 +26,7 @@
     
 }
 
-.mobile_screen_nav a:hover{
+.mobile_screen_nav a:is(:hover,:active,:focus){
     background: rgba(0, 0, 0, 4);
 }
 
-.gradient{
-    background: linear-gradient(45deg,transparent,rgba(241, 237, 237, 0.5),transparent);
-    
-    display: grid;
-    place-items: center;
-}
-
-.text-gradient {
-    color: linear-gradient(to right, purple, yellow);
-  }
