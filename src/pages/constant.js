@@ -36,56 +36,80 @@ export const skills = [
         icons: python
     },
     {
-        name: 'JAVASCRIPT',
+        name: 'REACT',
         icons: javascript
     },
     {
-        name: 'JAVASCRIPT',
+        name: 'JAVA',
         icons: javascript
     },
 ]
 
 export const projects = [
     {
+        id: 1,
         title: 'Portfolio Project',
         imgUrl: my_work,
-        gitHubLink:'https://google.com',
-        liveDemo:'https://google.com'
+        gitHubLink: 'https://google.com',
+        liveDemo: 'https://google.com',
+        desc: "Finetekk dsf,sngm xgjgsbsmsg dvssvvm dfgvbsdvbsdvscnda snvnvn vmsnnc snas dsvdsnmvdn",
+
+        stack: ['React ', 'HTML', ' CSS']
     },
     {
+        id: 2,
         title: 'Portfolio Project',
         imgUrl: my_work,
-        gitHubLink:'https://google.com',
-        liveDemo:'https://google.com'
+        gitHubLink: 'https://google.com',
+        liveDemo: 'https://google.com',
+        desc: "Finetekk",
+        stack: ['React ', 'HTML', ' CSS']
     },
     {
+        id: 3,
         title: 'Portfolio Project',
         imgUrl: my_work,
-        gitHubLink:'https://google.com',
-        liveDemo:'https://google.com'
+        gitHubLink: 'https://google.com',
+        liveDemo: 'https://google.com',
+        desc: "Finetekk",
+        stack: ['React ', 'HTML', ' CSS']
     },
     {
+        id: 4,
         title: 'Portfolio Project',
         imgUrl: my_work,
-        gitHubLink:'https://google.com',
-        liveDemo:'https://google.com'
+        gitHubLink: 'https://google.com',
+        liveDemo: 'https://google.com',
+        desc: "Finetekk",
+        stack: ['React ', 'HTML', ' CSS']
     },
     {
+        id: 5,
         title: 'Portfolio Project',
         imgUrl: my_work,
-        gitHubLink:'https://google.com',
-        liveDemo:'https://google.com'
+        gitHubLink: 'https://google.com',
+        liveDemo: 'https://google.com',
+        desc: "Finetekk",
+        stack: ['React ', 'HTML', ' CSS']
     },
     {
+        id: 6,
         title: 'Portfolio Project',
         imgUrl: my_work,
-        gitHubLink:'https://google.com',
-        liveDemo:'https://google.com'
+        gitHubLink: 'https://google.com',
+        liveDemo: 'https://google.com',
+        desc: "Finetekk",
+        stack: ['React ', 'HTML', ' CSS']
+
     },
     {
+        id: 7,
         title: 'Portfolio Project',
         imgUrl: my_work,
-        gitHubLink:'https://google.com',
-        liveDemo:'https://google.com'
+        gitHubLink: 'https://google.com',
+        liveDemo: 'https://google.com',
+        desc: "Finetekk",
+        stack: ['React ', 'HTML', ' CSS']
+
     },
 ]

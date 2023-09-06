@@ -22,6 +22,7 @@ export default {
       
       fontFamily: {
         montserat: ["Montserrat", "sans-serif"],
+        arial: ["arial", "sans-serif"],
       },
       gridTemplateColumns: {
         // Simple 16 column grid

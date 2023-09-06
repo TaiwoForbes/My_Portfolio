@@ -1,5 +1,5 @@
 import React from 'react'
-import { motion } from 'framer-motion';
+import { motion} from 'framer-motion';
 import { Link, NavLink } from 'react-router-dom'
 import { IoMdHome } from 'react-icons/Io';
 import { CgProfile } from 'react-icons/cg';
@@ -14,9 +14,7 @@ const Header = () => {
         visible: { opacity: 1, y: 0 },
       }
 
-    const buttonVariant = {
-        scale: [1,1.1,1,1.1,1.1,1]
-    }
+    
     return (
         <>
             <motion.header id='top' className='bg-mid-black w-full flex justify-between text-white py-5 px-10 font-montserat'
@@ -33,19 +31,19 @@ const Header = () => {
 
                 <nav className='flex gap-8 justify-center items-center '>
                     <div className='hidden lg:flex gap-7 text-[16px] justify-center items-center '>
-                        <NavLink to='/' className={({ isActive }) => isActive ? 'bg-grey py-[3px] px-[12px] rounded-md text-[1.2rem] text-blackish ' : null}>
+                        <NavLink to='/' className={({ isActive }) => isActive ? 'bg-grey py-[3px] px-[12px] rounded-md text-[1.2rem] text-blackish border-2 border-blk ' : null}>
                             <p className=' hover:border-b-2 hover:border-blackish'>Home</p>
                         </NavLink>
-                        <NavLink to='/about' className={({ isActive }) => isActive ? 'bg-grey py-[3px] px-[12px] rounded-md text-[1.2rem] text-blackish ' : null} >
+                        <NavLink to='/about' className={({ isActive }) => isActive ? 'bg-grey py-[3px] px-[12px] rounded-md text-[1.2rem] text-blackish border-2 border-blk ' : null} >
                             <p className=' hover:border-b-2 hover:border-blackish '>About</p>
                         </NavLink>
-                        <NavLink to="/skills" className={({ isActive }) => isActive ? 'bg-grey py-[3px] px-[12px] rounded-md text-[1.2rem] text-blackish ' : null}>
+                        <NavLink to="/skills" className={({ isActive }) => isActive ? 'bg-grey py-[3px] px-[12px] rounded-md text-[1.2rem] text-blackish border-2 border-blk ' : null}>
                             <p className='hover:border-b-2 hover:border-blackish'>Skills</p>
                         </NavLink>
-                        <NavLink to='projects' className={({ isActive }) => isActive ? 'bg-grey py-[3px] px-[12px] rounded-md text-[1.2rem] text-blackish ' : null}>
+                        <NavLink to='projects' className={({ isActive }) => isActive ? 'bg-grey py-[3px] px-[12px] rounded-md text-[1.2rem] text-blackish border-2 border-blk' : null}>
                             <p className=' hover:border-b-2 hover:border-blackish'>Projects</p>
                         </NavLink>
-                        <NavLink to='/contact' className={({ isActive }) => isActive ? 'bg-grey py-[3px] px-[12px] rounded-md text-[1.2rem]  text-blackish' : null}>
+                        <NavLink to='/contact' className={({ isActive }) => isActive ? 'bg-grey py-[3px] px-[12px] rounded-md text-[1.2rem]  text-blackish border-2 border-blk' : null}>
                             <p className='hover:border-b-2 hover:border-blackish'>Contact</p>
                         </NavLink>
                     </div>
@@ -54,12 +52,13 @@ const Header = () => {
                         <NavLink>
                             <motion.button className='bg-grey text-white p-3 rounded-xl border-2 border-blk'
                             
-                            whileHover={{
-                                scale:[1,1.1,1,1.1],
-                                textShadow: '0px 0px 0px rgb(255,255,255)',
-                                boxShadow: '0px 0px 0px  rgb(255,255,255)'
+                            animate={{
+                                scale:1.1,
+                                textShadow: '0 0 10px rgb(255,255,255)',
+                                boxShadow: '0 0 10px  rgb(255,255,255)',
+                                
                             }}
-                            transition={{delay:0.33, duration:1,}}
+                            transition={{duration:0.5,delay:0.20,repeat:Infinity,type:'tween',repeatType:'reverse'}}
                            
                             >Download CV</motion.button>
                         </NavLink>
@@ -88,7 +87,7 @@ const Header = () => {
 
             </nav>
 
-            <div className='text-white fixed bottom-2' >
+            <div className='text-white fixed bottom-2  right-1 z-10' >
                 <a href="#top"><h2>Back to top</h2></a>
             </div>
 

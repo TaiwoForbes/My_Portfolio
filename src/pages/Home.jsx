@@ -1,4 +1,4 @@
-import React from "react"
+import React,{useEffect} from "react"
 import { Link } from "react-router-dom";
 import { HiOutlineCubeTransparent } from 'react-icons/hi';
 import { motion, } from "framer-motion";
@@ -45,7 +45,7 @@ const Home = () => {
         >
           <div className='flex flex-col text-left items-start justify-center py-5 '>
 
-            <h1 className='text-[2rem] font-semibold'>Hey, I'm Taiwo <span class="emoji">👋</span></h1>
+            <h1 className='text-[2rem] font-semibold'>Hey, I'm Taiwo <span>👋</span></h1>
             <div className="flex  mt-[3rem]">
               <motion.p className="text-md"
                 variants={wordVariant}

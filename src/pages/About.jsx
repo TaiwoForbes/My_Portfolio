@@ -44,7 +44,7 @@ const About = () => {
                                 transition={{ duration: 0.5, delay: 0.50 }}
                             >
 
-                                <h1 className='text-[2rem] font-semibold'>Hey, I'm Taiwo <span class="emoji">👋</span></h1>
+                                <h1 className='text-[2rem] font-semibold'>Hey, I'm Taiwo <span>👋</span></h1>
                                 <div className="flex  mt-3">
                                     <p className="text-sm">I believe that great design starts with an obsession to meet users needs</p>
 
@@ -121,7 +121,7 @@ const About = () => {
                     </motion.p>
 
                     <Link >
-                        <button className='bg-white text-black p-3 rounded-xl mt-[1rem]'>Get In touch</button>
+                        <button className='bg-white text-black p-3 rounded-xl mt-[1rem] border-2 border-blk hover:bg-transparent hover:text-white'>Get In touch</button>
                     </Link>
 
                 </div>

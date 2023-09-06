@@ -1,6 +1,7 @@
 @import url('https://fonts.googleapis.com/css2?family=Montserrat:ital,wght@0,100;0,200;0,300;0,400;0,500;1,100;1,200;1,300;1,400;1,500&display=swap');
 
 
+
 @tailwind base;
 @tailwind components;
 @tailwind utilities;
@@ -12,7 +13,7 @@ html{
     background:  rgba(241, 237, 237, 0.2);
     width: max-content;
     padding:  0.7rem;
-    z-index:  2;
+    z-index:  100;
     border-radius: 3rem;
     backdrop-filter: blur(15px);
 }

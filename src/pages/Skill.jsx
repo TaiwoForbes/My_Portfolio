@@ -32,12 +32,12 @@ const Skill = () => {
       >My Skills:</motion.h1>
 
 
-      <div className='p-[2rem] px-[7rem] md:px-[2rem] xl:px-[10rem]'>
+      <div className='p-[2rem] px-[2rem] overflow-hidden sm:px-[7rem] md:px-[2rem] xl:px-[10rem]'>
         <div className='grid gap-[2rem] sm:grid-cols-2 md:grid-cols-3 xl:gap-[1rem]'>
           {
             skills.map((items) => {
               return (
-                <motion.div
+                <motion.div key={items.name}
                   variants={containerVariant}
                   initial='hidden'
                   whileInView='visible'
