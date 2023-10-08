@@ -1,7 +1,7 @@
 import React from 'react'
 import { motion} from 'framer-motion';
 import { Link, NavLink } from 'react-router-dom'
-import { IoMdHome } from 'react-icons/Io';
+import { HiHome } from 'react-icons/Hi';
 import { CgProfile } from 'react-icons/cg';
 import { BiSolidFolderOpen } from 'react-icons/bi';
 import { HiOutlineLightBulb } from 'react-icons/hi';
@@ -69,7 +69,7 @@ const Header = () => {
 
             <nav className='flex gap-2 items-center  fixed left-[50%] bottom-5 translate-x-[-50%] text-black mobile_screen_nav'>
                 <NavLink to='/' >
-                    <IoMdHome />
+                    <HiHome />
                 </NavLink>
 
                 <NavLink to="about" >
