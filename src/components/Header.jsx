@@ -1,7 +1,7 @@
 import React from 'react'
 import { motion} from 'framer-motion';
 import { Link, NavLink } from 'react-router-dom'
-import { HiHome } from 'react-icons/Hi';
+import { HiHome } from 'react-icons/hi';
 import { CgProfile } from 'react-icons/cg';
 import { BiSolidFolderOpen } from 'react-icons/bi';
 import { HiOutlineLightBulb } from 'react-icons/hi';
