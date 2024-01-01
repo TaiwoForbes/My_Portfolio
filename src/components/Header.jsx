@@ -6,8 +6,17 @@ import { CgProfile } from 'react-icons/cg';
 import { BiSolidFolderOpen } from 'react-icons/bi';
 import { HiOutlineLightBulb } from 'react-icons/hi';
 import { MdContacts } from 'react-icons/md';
-
-
+ 
+const RESUME = 'http://localhost:5173/my_resume.docx'
+const downloadResume= (url)=>{
+    const fileNmae = url.split('/').pop()
+    const aTag = document.createElement('a')
+    aTag.href = url
+    aTag.setAttribute('download',fileNmae)
+    document.body.appendChild(aTag)
+    aTag.click()
+    aTag.remove()
+}
 const Header = () => {
     const ContainerVariant = {
         hidden: { opacity: 0, y: -20 },
@@ -51,7 +60,7 @@ const Header = () => {
                     <div>
                         <NavLink>
                             <motion.button className='bg-grey text-white p-3 rounded-xl border-2 border-blk'
-                            
+                            onClick={()=>(downloadResume(RESUME))}
                             animate={{
                                 scale:1.1,
                                 textShadow: '0 0 10px rgb(255,255,255)',
