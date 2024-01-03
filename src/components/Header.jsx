@@ -6,8 +6,9 @@ import { CgProfile } from 'react-icons/cg';
 import { BiSolidFolderOpen } from 'react-icons/bi';
 import { HiOutlineLightBulb } from 'react-icons/hi';
 import { MdContacts } from 'react-icons/md';
- 
-const RESUME = 'http://localhost:5173/my_resume.docx'
+
+
+const RESUME = 'https://taiwoforbes.netlify.app/my_resume.docx'
 const downloadResume= (url)=>{
     const fileNmae = url.split('/').pop()
     const aTag = document.createElement('a')
