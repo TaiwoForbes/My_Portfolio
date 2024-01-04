@@ -31,7 +31,7 @@ const Projects = () => {
       >My recent work</motion.h2>
 
       <div className='grid sm:grid-cols-2 xl:grid-cols-3 gap-[2.5rem]  mt-[2rem]'>
-        {projects.map((project) => {
+        {projects.map((project) =>{
           return (
             <motion.article key={project.id} className='bg-grey p-[1rem] relative rounded-[1.5rem] border-2 overflow-y-hidden  border-blk'
             variants={containerVariant}
@@ -44,11 +44,11 @@ const Projects = () => {
               </div>
               <h3 className='text-blackish text-[1.2rem] uppercase py-2'>{project.title}</h3>
 
-              <div className='border-2 border-blk bg-black inline-block p-[2px] rounded-md'>
+              <div className='border-2 border-blk bg-black inline-block p-[5px] rounded-md'>
                 {project.stack}
               </div>
               <div className="flex gap-[1rem] mt-[0.7rem]">
-                <motion.a href="" className='bg-black p-[0.5rem] z-10 rounded-lg border-2 border-blk'
+                <motion.a href={project.gitHubLink}  target='_blank' className='bg-black p-[0.5rem] z-10 rounded-lg border-2 border-blk'
                 whileHover={{
                   scale:1.1,
                   textShadow: '0 0 10px rgb(255,255,255)',
@@ -60,7 +60,7 @@ const Projects = () => {
              
                 >Github</motion.a>
 
-                <motion.a href="" className='bg-white text-black p-[0.5rem] rounded-lg border-2 z-10 border-blk'
+                <motion.a href={project.liveDemo} target='_blank' className='bg-white text-black p-[0.5rem] rounded-lg border-2 z-10 border-blk'
                 whileHover={{
                   scale:1.1,
                   textShadow: '0 0 10px rgb(255,255,255)',
@@ -75,13 +75,14 @@ const Projects = () => {
               initial = {{opacity:0, y:30}}
               whileHover={{opacity:1, y:0}}
               >
-                <h1 className='text-center uppercase border-b-2 border-blackish'>{project.title}</h1>
-                <p className='text-blackish'>{project.desc}</p>
+                <h1 className='text-center uppercase border-b-2 border-blackish text-[2rem]'>{project.title}</h1>
+                <p className='text-blackish text-[1.5rem]'>{project.desc}</p>
               </motion.div>
               
             </motion.article>
           )
         })}
+
       </div>
     </section>
 

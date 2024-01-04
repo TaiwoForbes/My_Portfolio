@@ -77,7 +77,7 @@ const About = () => {
 
                         </motion.div>
 
-
+                            
                         <motion.div className='bg-grey rounded-lg  p-5 hover:bg-blke transition-all '
                             variants={containerVariant}
                             initial='hidden'
@@ -85,6 +85,7 @@ const About = () => {
                             transition={{ duration: 0.5, delay: 0.25 }}
 
                         >
+                            <Link to='/projects'>
                             <motion.div className='flex flex-col '
                             whileHover={{ scale: 1.05 }}
                             transition={{ duration: 0.3 }}
@@ -102,6 +103,8 @@ const About = () => {
 
                                 </motion.div>
                             </motion.div>
+                                </Link>
+                            
                         </motion.div>
 
 
@@ -120,7 +123,7 @@ const About = () => {
                         Lorem ipsum dolor sit, amet consectetur adipisicing elit. Excepturi pariatur vitae illum eos dignissimos, at quasi. Perferendis impedit explicabo sit tenetur, dolor recusandae culpa ea nihil incidunt, aliquid consequuntur quia?
                     </motion.p>
 
-                    <Link >
+                    <Link to='/contact'>
                         <button className='bg-white text-black p-3 rounded-xl mt-[1rem] border-2 border-blk hover:bg-transparent hover:text-white'>Get In touch</button>
                     </Link>
 
