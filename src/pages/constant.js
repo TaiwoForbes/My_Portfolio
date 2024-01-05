@@ -66,7 +66,7 @@ export const projects = [
         id: 2,
         title: 'Add Homes',
         imgUrl: addhomes,
-        gitHubLink: 'https://google.com',
+        gitHubLink: 'https://github.com/TaiwoForbes/Real_Estate_App',
         liveDemo: 'https://addhomes.netlify.app/projects',
         desc: "This is a real estate application that allows user to list rental for potential buyers or tenants",
         stack: ['React ', 'Tailwindcss', ' Firebase']
@@ -75,8 +75,8 @@ export const projects = [
         id: 3,
         title: 'Geritch Resturant',
         imgUrl: geritch,
-        gitHubLink: 'https://google.com',
-        liveDemo: 'https://google.com',
+        gitHubLink: 'https://github.com/TaiwoForbes/Gericht_Resturant',
+        liveDemo: 'https://gerichresturant2.netlify.app/',
         desc: "A landing page built for a resturant  that showcases their products and services.",
         stack: ['React ', ' Tailwindcss']
     },
@@ -84,8 +84,8 @@ export const projects = [
         id: 4,
         title: 'LevelUp Shopify',
         imgUrl: levelUp,
-        gitHubLink: 'https://google.com',
-        liveDemo: 'https://google.com',
+        gitHubLink: 'https://github.com/TaiwoForbes/levelUpHackathon',
+        liveDemo: 'https://levelupshopify.netlify.app/',
         desc: "This is a product built to challenge myself. I'm to create an exact replica of a figma design with the neccesary functionalities.",
         stack: ['HTML', ' CSS', ' JavaScript']
     },
@@ -93,8 +93,8 @@ export const projects = [
         id: 5,
         title: 'Edu Forbes',
         imgUrl: eduForbes,
-        gitHubLink: 'https://google.com',
-        liveDemo: 'https://google.com',
+        gitHubLink: 'https://github.com/TaiwoForbes/Education_website',
+        liveDemo: 'https://eduforbes.netlify.app/',
         desc: "Educational Website display product and services it offers to potential users.",
         stack: ['HTML', ' CSS', ' JavaScript']
     },
@@ -102,7 +102,7 @@ export const projects = [
         id: 6,
         title: 'Travel Website',
         imgUrl: travel,
-        gitHubLink: 'https://google.com',
+        gitHubLink: 'https://github.com/TaiwoForbes/Education_website',
         liveDemo: 'https://google.com',
         desc: "A travel Website",
         stack: ['HTML', ' CSS', ' JavaScript']
