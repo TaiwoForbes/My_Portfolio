@@ -123,7 +123,7 @@ const Home = () => {
           whileInView='visible'
           transition={{ duration: 0.5, delay: 0.25 }}
         >
-          <a href="www.google.com" target="_blank">
+          <a href="https://www.linkedin.com/in/soyemi-hissa-23b64a229/" target="_blank">
             <motion.div
 
               whileHover={{ scale: 1.1 }}

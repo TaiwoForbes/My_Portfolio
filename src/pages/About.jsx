@@ -68,7 +68,7 @@ const About = () => {
                              transition={{ duration: 0.3 }}
                             >
                                 <div className='flex justify-center items-center mt-5'>
-                                   <a href=""><PiLinkedinLogoLight className="text-[4rem] font-bold" /></a> 
+                                   <a href="https://www.linkedin.com/in/soyemi-hissa-23b64a229/"><PiLinkedinLogoLight className="text-[4rem] font-bold" /></a> 
                                 </div>
                                 <div className='flex justify-end items-center mt-5'>
                                     <BsArrowUpRight className="text-[1rem] md:text-[2rem] font-bold" />
