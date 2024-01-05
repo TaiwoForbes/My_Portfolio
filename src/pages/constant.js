@@ -1,4 +1,3 @@
-
 import html from '../assets/icons/html.jpg'
 import css from '../assets/icons/css.png'
 import tailwind from '../assets/icons/tailwind.jpg'
@@ -57,8 +56,8 @@ export const projects = [
         id: 1,
         title: 'Portfolio Project',
         imgUrl: my_portfolio,
-        gitHubLink: 'https://google.com',
-        liveDemo: 'https://google.com',
+        gitHubLink: 'https://github.com/TaiwoForbes/My_Portfolio/',
+        liveDemo: 'https://taiwoforbes.netlify.app/',
         desc: "This is my personal portfolio project that showcases what I'm capable of offering to your wonderful company",
 
         stack: ['React ', 'Tailwindcss']
@@ -68,7 +67,7 @@ export const projects = [
         title: 'Add Homes',
         imgUrl: addhomes,
         gitHubLink: 'https://google.com',
-        liveDemo: 'https://google.com',
+        liveDemo: 'https://addhomes.netlify.app/projects',
         desc: "This is a real estate application that allows user to list rental for potential buyers or tenants",
         stack: ['React ', 'Tailwindcss', ' Firebase']
     },
