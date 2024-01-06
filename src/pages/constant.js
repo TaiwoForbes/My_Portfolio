@@ -102,8 +102,8 @@ export const projects = [
         id: 6,
         title: 'Travel Website',
         imgUrl: travel,
-        gitHubLink: 'https://github.com/TaiwoForbes/Education_website',
-        liveDemo: 'https://google.com',
+        gitHubLink: 'https://github.com/TaiwoForbes/Travel_Website',
+        liveDemo: 'https://travelia01.netlify.app/',
         desc: "A travel Website",
         stack: ['HTML', ' CSS', ' JavaScript']
 
@@ -112,7 +112,7 @@ export const projects = [
         id: 7,
         title: 'Fintekk',
         imgUrl: Fintekk,
-        gitHubLink: 'https://google.com',
+        gitHubLink: 'https://github.com/TaiwoForbes/Fintekk',
         liveDemo: 'https://google.com',
         desc: "Fintekk",
         stack: ['HTML', ' CSS', ' JavaScript']
