@@ -97,7 +97,8 @@ const Contact = () => {
               <h1>+2348181138484</h1>
               <a
                 className="mt-[0.7rem] inline-block text-[1rem] text-blackish"
-                href="https://api.whatsapp.com/send?phone+23408181138484"
+                href="https://api.whatsapp.com/send?phone=+2348181138484
+                "
                 target="_blank"
               >
                 Send a message
