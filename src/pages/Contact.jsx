@@ -59,7 +59,7 @@ const Contact = () => {
               <h1>soyemihissa2000@gmail.com</h1>
               <a
                 className="mt-[0.7rem] inline-block text-[1rem] text-blackish"
-                href="mailto:soyem"
+                href="mailto:soyemihissa2000@gmail.com"
                 target="_blank"
               >
                 Send a message
@@ -93,11 +93,11 @@ const Contact = () => {
               transition={{ duration: 0.5, delay: 0.5 }}
             >
               <BsWhatsapp />
-              <h4 className="font-medium">Email</h4>
-              <h1>0909980877</h1>
+              <h4 className="font-medium">Whatsapp</h4>
+              <h1>+2348181138484</h1>
               <a
                 className="mt-[0.7rem] inline-block text-[1rem] text-blackish"
-                href="https://api.whatsapp.com/send?phone+234"
+                href="https://api.whatsapp.com/send?phone+23408181138484"
                 target="_blank"
               >
                 Send a message
