@@ -68,7 +68,7 @@ export const projects = [
         imgUrl: addhomes,
         gitHubLink: 'https://github.com/TaiwoForbes/Real_Estate_App',
         liveDemo: 'https://addhomes.netlify.app/',
-        desc: "This is a real estate application that allows user to list rental for potential buyers or tenants.",
+        desc: "This is a real estate application that allow users to list rental for potential buyers or tenants.",
         stack: ['React ', 'Tailwindcss', ' Firebase']
     },
     {
